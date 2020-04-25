@@ -3,6 +3,7 @@
     <declare-styleable name="EditTextPuzzle">
         <attr name="placeholder" format="string" />
         <attr name="text" format="string" />
+        <attr name="margin" format="dimension" />
         <attr name="labelPosition" format="enum">
             <enum name="left" value="0"/>
             <enum name="right" value="1"/>
