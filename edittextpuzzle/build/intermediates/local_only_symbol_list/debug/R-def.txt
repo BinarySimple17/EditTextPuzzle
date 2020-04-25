@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+attr? labelPosition
+attr? placeholder
+attr? text
+dimen letter_normal
+id left
+id puzzle_root
+id right
+layout edit_text_puzzle_view
+style TextEditPrimary
+style TextViewPrimary
+styleable EditTextPuzzle placeholder text labelPosition
