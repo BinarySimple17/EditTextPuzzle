@@ -69,9 +69,13 @@ public class EditTextPuzzle extends LinearLayout {
             text = "";
         } finally {
             a.recycle();
-            if (text != null) {
-                text = text.toUpperCase();
+            if (text == null) {
+                text = "";
             }
+            if (placeHolder == null) {
+                placeHolder = "$";
+            }
+            text = text.toUpperCase();
         }
     }
 
