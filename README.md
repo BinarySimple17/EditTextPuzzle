@@ -19,7 +19,7 @@ allprojects {
 	}
 ```
 * Step 2. Add the dependency
-``` java
+``` gradle
 	dependencies {
 	        implementation 'com.github.BinarySimple17:EditTextPuzzle:version'
 	}
